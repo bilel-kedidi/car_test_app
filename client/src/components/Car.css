@@ -1,0 +1,70 @@
+.car-page {
+  font-size: 1.6rem;
+  font-family: inherit;
+  width: 100vw;
+  padding: 4rem;
+  text-align: center;
+}
+
+.car-page div {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.car-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-details p {
+  text-align: center;
+}
+
+.add-task {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task p:first-of-type {
+  margin: 0;
+  padding: 0;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20rem;
+}
+
+.add-task-form input {
+  border: 1px solid grey;
+  padding: 1rem 0.5rem;
+}
+
+.add-task-form button {
+  border: none;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+.inspected-status {
+  display: flex;
+  align-items: center;
+}
+
+.inspected-button {
+  border: none;
+  padding: 6px;
+  margin-left: 1rem;
+}
+
+#tasks {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+textarea {
+  font-family: inherit;
+}

@@ -1,0 +1,49 @@
+.app {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.register-vehicle {
+  height: 40rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.register-vehicle .submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.register-vehicle .submit-button button {
+  width: 35%;
+  font-family: inherit;
+  height: 2.5rem;
+  border: transparent;
+  cursor: pointer;
+}
+
+.register-vehicle input {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem 0.5rem;
+}
+
+.register-vehicle label {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.vehicles-list {
+  padding-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

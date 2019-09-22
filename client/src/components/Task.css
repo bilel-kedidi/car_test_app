@@ -1,0 +1,34 @@
+.task-div,
+.task-div div {
+  display: block;
+  margin: 0;
+}
+
+.task-div {
+  background-color: #eff;
+  padding: 1rem;
+}
+
+.task-title {
+  padding-bottom: 1rem;
+}
+
+.task-list div {
+  display: block;
+  margin: 1rem 0;
+}
+
+.task-list p {
+  margin: 1rem 0;
+}
+
+ul {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
